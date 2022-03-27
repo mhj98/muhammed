@@ -1,0 +1,510 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+                <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Shopping | ELTAYEB Restaurant</title>
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap_ltr.css" rel="stylesheet">
+        <link href="css/style_ltr.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="owl/assets/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
+        <link href="owl/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/init.css" rel="stylesheet" type="text/css"/>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <input type="hidden" id="lang" value="en" />
+        <nav class="navbar navbar-default" style="background-color: #c3181f !important">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="shopping.php"><img width="35" class='pull-left img-logo' src="ico.png"><span class='pull-left'>مطبخك</span></a>
+                </div>
+                <div class="visible-xs fixed-cart" >
+                    <ul class="navbar-nav nav navbar-right customer-nav-info">
+                                                          <li class='cart-ex-ico'><a href='procurement_list.php'><i class='glyphicon glyphicon-shopping-cart'></i>
+                                    <span class='notification'>
+                                        0                                    </span>
+                                </a>
+                            </li>
+ 
+                                                                                            </ul>
+
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                            <ul class='navbar-nav nav navbar-right customer-nav-info'>
+
+                                                            <li class='welcome'>
+                                    <a href='https://islemona.blogspot.com/2022/03/login.html'>
+                                        <label>Login</label>
+                                    </a>
+                                </li>
+                                
+
+                        </ul>
+                                        <form class="navbar-form navbar-right" action="mat.php">
+                        <div class="form-group">
+                            <input type="text" name="k" value='' class="form-control" placeholder="Search">
+                        </div>
+
+                        <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </form>
+                    <form class="navbar-form navbar-right">
+                        <select id="SelectLang" class='btn btn-default dropdown-toggle' onchange="SetLanguage(this)">
+                            <option selected='' value="en">English</option>
+                            <option  value="ar">العربية</option>
+                            <option  value="tr" >Türkiye</option>		 
+                        </select>	 	 		 		 
+                    </form>
+
+                    <ul class="navbar-nav nav navbar-right">
+
+                        <li class='cart-ex-ico'>
+                            <a href='https://play.google.com/store/apps/details?id=com.goldendream.lezzet' target='_blank'><i class='fa fa-android'></i></a>
+                        </li>
+                        <li class='cart-ex-ico'>
+                            <a href='https://apps.apple.com/us/app/id1273569423' target='_blank'><i class='fa fa-apple'></i></a>
+                        </li>
+                                                             <li class='cart-ex-ico hidden-xs'><a href='procurement_list.php'><i class='glyphicon glyphicon-shopping-cart'></i>
+                                    <span class='notification'>
+                                        0                                    </span>
+                                </a>
+                            </li>
+ 
+                                                        </ul>
+
+
+
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container">
+
+    <div class="row list-group"> 
+        <div class="col-sm-12 col-sm-offset-0  col-md-8 col-md-offset-2">   
+            <div>
+                <div class="panel-body">
+                    <div class="row">
+    
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=0A8690BA-6A93-4CD1-9CCA-71F25D0938F4">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0000.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=0A8690BA-6A93-4CD1-9CCA-71F25D0938F4">فول سفري</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=0A8690BA-6A93-4CD1-9CCA-71F25D0938F4">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=5816CBD2-B4D1-44FB-AC8D-75763F8BE887">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0002.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=5816CBD2-B4D1-44FB-AC8D-75763F8BE887">مامونية بحليب</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=5816CBD2-B4D1-44FB-AC8D-75763F8BE887">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=EBADDBD9-97FA-438A-A54A-66A3A4FDC110">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0010.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=EBADDBD9-97FA-438A-A54A-66A3A4FDC110">وجبات (فطور)</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=EBADDBD9-97FA-438A-A54A-66A3A4FDC110">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+                                
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=C2DD5787-78F2-42A2-B589-8A3997503D90">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0011.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=C2DD5787-78F2-42A2-B589-8A3997503D90">فطاير</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=C2DD5787-78F2-42A2-B589-8A3997503D90">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=61DD6AF2-1A39-4573-AA6E-362E81E03EDE">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0012.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=61DD6AF2-1A39-4573-AA6E-362E81E03EDE">بيتزا</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=61DD6AF2-1A39-4573-AA6E-362E81E03EDE">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=6BDE6451-6257-4B4B-AE2B-848F7E1AA44F">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0013.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=6BDE6451-6257-4B4B-AE2B-848F7E1AA44F">فلافل</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=6BDE6451-6257-4B4B-AE2B-848F7E1AA44F">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+                                
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=00532FC4-94F2-4140-AB94-D642EA348BB3">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0014.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=00532FC4-94F2-4140-AB94-D642EA348BB3">شاورما وبطاطا</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=00532FC4-94F2-4140-AB94-D642EA348BB3">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=A6C0FE9B-0AA2-487A-8E62-70281AA79BFB">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0015.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=A6C0FE9B-0AA2-487A-8E62-70281AA79BFB">شاورما خبز تركي مع بيواظ</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=A6C0FE9B-0AA2-487A-8E62-70281AA79BFB">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=55037019-4636-49B0-ADC0-DB8FDBC9CCB5">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0018.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=55037019-4636-49B0-ADC0-DB8FDBC9CCB5">شاورما غنم وعجل</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=55037019-4636-49B0-ADC0-DB8FDBC9CCB5">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+                                
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=6BA1EE87-0C9F-4F1E-B389-4B8F324C44FA">
+                                            <img class="group list-group-image img-responsive" src="IMG-20220319-WA0019.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=6BA1EE87-0C9F-4F1E-B389-4B8F324C44FA">بطاطا و طلبات اضافية</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=6BA1EE87-0C9F-4F1E-B389-4B8F324C44FA">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=9977C0EC-252A-49DA-82D1-C25D4B06FC79">
+                                            <img class="group list-group-image img-responsive" src="../images/9977C0EC-252A-49DA-82D1-C25D4B06FC79.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=9977C0EC-252A-49DA-82D1-C25D4B06FC79">مشوي & بروستد & كبة مقلية</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=9977C0EC-252A-49DA-82D1-C25D4B06FC79">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=CA3F6AD8-0C2E-4736-85BC-6C0BE59EDA91">
+                                            <img class="group list-group-image img-responsive" src="../images/CA3F6AD8-0C2E-4736-85BC-6C0BE59EDA91.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=CA3F6AD8-0C2E-4736-85BC-6C0BE59EDA91">وجبات شرقي</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=CA3F6AD8-0C2E-4736-85BC-6C0BE59EDA91">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+                                
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=F01E8B3E-6F52-4CD5-A393-C7919D89F7BA">
+                                            <img class="group list-group-image img-responsive" src="../images/F01E8B3E-6F52-4CD5-A393-C7919D89F7BA.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=F01E8B3E-6F52-4CD5-A393-C7919D89F7BA">وجبات غربي</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=F01E8B3E-6F52-4CD5-A393-C7919D89F7BA">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=9F8AB0AE-CFEC-40FC-8FDF-29C234C749F3">
+                                            <img class="group list-group-image img-responsive" src="../images/9F8AB0AE-CFEC-40FC-8FDF-29C234C749F3.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=9F8AB0AE-CFEC-40FC-8FDF-29C234C749F3">وجبات برغر</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=9F8AB0AE-CFEC-40FC-8FDF-29C234C749F3">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=E0A384C2-BE8A-4556-AE1A-C49A7E829A74">
+                                            <img class="group list-group-image img-responsive" src="../images/E0A384C2-BE8A-4556-AE1A-C49A7E829A74.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=E0A384C2-BE8A-4556-AE1A-C49A7E829A74">صندويش غربي</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=E0A384C2-BE8A-4556-AE1A-C49A7E829A74">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+                                
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=9931F0C5-21E8-409A-9BE1-E44089A0690A">
+                                            <img class="group list-group-image img-responsive" src="../images/9931F0C5-21E8-409A-9BE1-E44089A0690A.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=9931F0C5-21E8-409A-9BE1-E44089A0690A">سلطات</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=9931F0C5-21E8-409A-9BE1-E44089A0690A">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=8E1646DD-CC1D-473E-AC21-CE148D93A563">
+                                            <img class="group list-group-image img-responsive" src="../images/8E1646DD-CC1D-473E-AC21-CE148D93A563.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=8E1646DD-CC1D-473E-AC21-CE148D93A563">مشروبات</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=8E1646DD-CC1D-473E-AC21-CE148D93A563">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+        
+
+                            <div class="item  col-xs-4 group-padding  col-sm-4">
+                                <div class="thumbnail">
+
+                                    <div class="img-item">
+                                        <a href="mat.php?grpid=70118D89-D15E-48DE-86B1-881BB92A643C">
+                                            <img class="group list-group-image img-responsive" src="../images/70118D89-D15E-48DE-86B1-881BB92A643C.jpg" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="caption">                                        
+                                        <h4 class="group inner list-group-item-heading text-center" ><a  style="color: black !important" href="mat.php?grpid=70118D89-D15E-48DE-86B1-881BB92A643C">كوكتيلات</a></h4>                 
+                                    </div>
+                                    <div class="details-btn-cont">                                                                                                                     
+                                        <a  style="background-color: #c3181f !important" href="mat.php?grpid=70118D89-D15E-48DE-86B1-881BB92A643C">Details</a>
+
+                                    </div>
+
+                                </div>
+                            </div>       
+
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <section id="init_bg">
+        <div class="init_web" style="background: #000000 url(../icon/splash_web.jpg) center center no-repeat;background-size:contain">          
+        </div>     
+        <div class="init_mobile" style="background: #000000 url(../icon/splash.jpg) center center no-repeat;background-size:contain">          
+        </div>
+    </section>
+    </div>
+<script src="js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="owl/owl.carousel.min.js" type="text/javascript"></script>
+<script src="js/function.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
