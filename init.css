@@ -1,0 +1,14 @@
+.init_web,.init_mobile{position: fixed;width: 100%;height: 100%;top: 0;left: 0;z-index: 111111111;}
+
+
+@media(min-width:768px){
+    .init_web{display: block}
+    .init_mobile{display: none}
+
+}
+
+@media(max-width:768px){
+    .init_web{display: none}
+    .init_mobile{display: block}
+
+}
